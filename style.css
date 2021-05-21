@@ -487,7 +487,7 @@ a {
 .wrapper__bottom .bottom__items .bottom__item .item__icon {
   width: 44px;
   height: 44px;
-  background: #ffdcbe;
+  background: #f0f0f2;
   border-radius: 22px;
   font-style: normal;
   font-weight: normal;
@@ -501,6 +501,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.wrapper__bottom .bottom__items .bottom__item .item__icon-action {
+  background: #ffdcbe;
 }
 .bottom__icons {
   display: flex;
