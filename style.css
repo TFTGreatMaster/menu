@@ -1,0 +1,533 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "DM Sans", sans-serif;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.wrapper .wrapper__top {
+  width: 1420px;
+  height: 558px;
+  border-radius: 50px;
+  background: #f0f2ff;
+  margin: 0 auto;
+}
+.top__container {
+  padding-top: 59px;
+  margin-left: 76px;
+  padding-right: 76px;
+}
+.wrapper .container__header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .header__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #1b113e;
+}
+.wrapper .header__items {
+  display: flex;
+  align-items: center;
+  width: 391.5px;
+  justify-content: space-between;
+}
+.wrapper .header__items .header__item {
+  width: 64px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .header__items .header__item:first-child {
+  background: #ffdcbe;
+  border-radius: 22px;
+}
+.wrapper .header__icon {
+  background: #ffffff;
+  border-radius: 22px;
+  width: 98px;
+  height: 44px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper .header__icon .header__icon-left {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #dbdade;
+  height: 25px;
+}
+.wrapper .header__icon .header__icon-right {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #1b113e;
+  height: 25px;
+}
+.wrapper .container__content {
+  margin-top: 20px;
+  width: 1268px;
+  height: 394px;
+  display: flex;
+}
+.container__content .content__item-3 {
+  width: 303px;
+  height: 394px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(27, 17, 62, 0.3),
+      rgba(27, 17, 62, 0.3)
+    ),
+    url(https://images.pexels.com/photos/1657212/pexels-photo-1657212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  border-radius: 30px;
+  margin-left: 20.5px;
+  margin-right: 15px;
+}
+.container__content .content__item-4 {
+  width: 303px;
+  height: 394px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(27, 17, 62, 0.3),
+      rgba(27, 17, 62, 0.3)
+    ),
+    url(https://images.pexels.com/photos/7897164/pexels-photo-7897164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  border-radius: 30px;
+  margin-right: 21px;
+}
+.container__content .content__items .content__item {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 302.5px;
+  height: 187px;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.content__items .content__item .item__time {
+  background: rgba(255, 220, 190, 0.6);
+  border-radius: 22px;
+  width: 68px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b113e;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+.content__items .content__item .item__time .item__time-month {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1.24286px;
+  text-transform: uppercase;
+
+  color: #1b113e;
+}
+.content__items .content__item .item__content {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #1b113e;
+  margin-bottom: 10px;
+}
+.content__item .item__infor {
+  display: flex;
+  align-items: center;
+}
+.content__item .item__infor .infor__img {
+  background: url(https://randomuser.me/api/portraits/women/79.jpg);
+  border-radius: 16px;
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+}
+.content__item .item__infor .infor__content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #7b778d;
+}
+.content__item .item__infor .infor__content a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #1b113e;
+}
+.content__item .item__infor .infor__content a:nth-child(2) {
+  margin-left: 17.75px;
+  position: relative;
+}
+.content__item .item__infor .infor__content a:nth-child(2)::before {
+  content: ".";
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  transform: translateY(-67%);
+}
+.content__item .item__infor .infor__icon {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #7b778d;
+  margin-left: 64px;
+}
+.container__content .content__items .content__item:nth-child(1) {
+  margin-bottom: 20px;
+}
+.item-3__contents {
+  position: relative;
+}
+.item-3__contents .contents__icon {
+  background: rgba(255, 255, 255, 0.29611);
+  /* Note: backdrop-filter has minimal browser support */
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 124px;
+}
+.item-3__contents .contents__title {
+  background: #ffdcbe;
+  border-radius: 17px;
+  width: 63px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1b113e;
+  transform: translate(50%, 50%);
+}
+.item-3__contents .contents__content {
+  width: 273px;
+  height: 134px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.item-3__contents .contents__content .content {
+  padding: 24px 19px 10px 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #1b113e;
+}
+.item-3__contents .contents__content .content__interactive-views {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #281c55;
+  margin-left: 39px;
+  margin-right: 33px;
+}
+.item-3__contents .contents__content .content__interactive-comment {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #281c55;
+}
+.item-3__contents .contents__avt {
+  background: url(https://randomuser.me/api/portraits/women/79.jpg);
+  border-radius: 16px;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: auto;
+}
+
+.item-4__contents {
+  position: relative;
+}
+.item-4__contents .contents__icon {
+  background: rgba(255, 255, 255, 0.29611);
+  /* Note: backdrop-filter has minimal browser support */
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 124px;
+}
+.item-4__contents .contents__title {
+  background: #ffdcbe;
+  border-radius: 17px;
+  width: 63px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1b113e;
+  transform: translate(50%, 50%);
+}
+.item-4__contents .contents__content {
+  width: 273px;
+  height: 134px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.item-4__contents .contents__content .content {
+  padding: 24px 19px 10px 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #1b113e;
+}
+.item-4__contents .contents__content .content__interactive-views {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #281c55;
+  margin-left: 39px;
+  margin-right: 33px;
+}
+.item-4__contents .contents__content .content__interactive-comment {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #281c55;
+}
+.item-4__contents .contents__avt {
+  background: url(https://randomuser.me/api/portraits/women/79.jpg);
+  border-radius: 16px;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: auto;
+}
+.circle-small {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 49px;
+  top: 319px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.circle-big {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 41px;
+  top: 333px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.wrapper__bottom {
+  width: 1270px;
+  margin-top: 51px;
+  margin-left: 85px;
+}
+.wrapper__bottom .bottom__header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 57px;
+
+  color: #100b25;
+  margin-bottom: 21px;
+}
+.wrapper__bottom .bottom__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #3d3753;
+  width: 649px;
+  margin-bottom: 40px;
+}
+.wrapper__bottom .bottom__items {
+  width: 1270px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__bottom .bottom__items .bottom__item {
+  width: 230px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid #ecebee;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.wrapper__bottom .bottom__items .bottom__item .item__avt {
+  width: 80px;
+  height: 80px;
+  background: url(https://randomuser.me/api/portraits/men/46.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.wrapper__bottom .bottom__items .bottom__item .item__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.wrapper__bottom .bottom__items .bottom__item .item__post {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #3d3753;
+}
+.wrapper__bottom .bottom__items .bottom__item .item__icon {
+  width: 44px;
+  height: 44px;
+  background: #ffdcbe;
+  border-radius: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1b113e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom__icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.bottom__icons .bottom__icon {
+  width: 218px;
+  height: 56px;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+
+  color: #1b113e;
+}
+.bottom__icon-left {
+  background: #f0f0f2;
+  margin-right: 10px;
+}
+.bottom__icon-right {
+  background: #ffdcbe;
+}
